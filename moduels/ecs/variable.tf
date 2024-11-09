@@ -1,0 +1,1 @@
+variable "aws_alb_target_group_arn" { type = string}
