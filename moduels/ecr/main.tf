@@ -2,6 +2,7 @@ resource "aws_ecr_repository" "this" {
   name = "test-ecr"
 }
 
+/*
 resource "aws_ecr_lifecycle_policy" "this" {
   repository = aws_ecr_repository.this.name
   policy = jsonencode(
@@ -23,3 +24,4 @@ resource "aws_ecr_lifecycle_policy" "this" {
     }
   )
 }
+*/
