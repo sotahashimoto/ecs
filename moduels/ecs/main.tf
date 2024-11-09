@@ -81,7 +81,7 @@ resource "aws_ecs_service" "ecs_service" {
     ]
 
     security_groups = [
-      "sg-0b0966a99d7eb773c" #default
+      "sg-0b0966a99d7eb773c" #default sg
     ]
 
     assign_public_ip = "true"
