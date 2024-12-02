@@ -1,3 +1,4 @@
+/*
 module "alb" {
   source = "../../moduels/alb"
 }
@@ -15,3 +16,4 @@ module "ecs" {
   source = "../../moduels/ecs"
   aws_alb_target_group_arn = module.alb.aws_alb_target_group_arn
 }
+*/
